@@ -1,0 +1,19 @@
+body {
+  font-family: "Segoe UI", Roboto, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f7f7f7;
+}
+
+.container {
+  margin: 20px auto;
+  max-width: 900px;
+  background: white;
+  padding: 20px 40px;
+  border-radius: 12px;
+  box-shadow: 0 5px 18px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  margin-bottom: 16px;
+}
