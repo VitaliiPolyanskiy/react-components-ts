@@ -1,6 +1,31 @@
+/* MyComponentFunction.module.css */
+.card {
+  background: white;
+  padding: 24px;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  border-top: 4px solid #2a9d8f;
+  transition: transform 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.badge {
+  display: inline-block;
+  background: #2a9d8f;
+  color: white;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
 .text {
-  color: #2a9d8f;
-  font-size: 20px;
-  border-left: 5px solid #2a9d8f;
-  padding-left: 10px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #4a4a4a;
+  margin: 0;
 }

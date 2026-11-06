@@ -1,13 +1,16 @@
-import React from "react";
+import { Component } from "react";
 import styles from "./MyComponentClass.module.css";
 
-export default class MyComponentClass extends React.Component {
+export default class MyComponentClass extends Component {
   render() {
     return (
-      <h1 className={styles.title}>
-        Отличительной чертой библиотеки React является концентрация на
-        компонентах, которые легко переносить из проекта в проект.
-      </h1>
+      <div className={styles.card}>
+        <div className={styles.badge}>Клас</div>
+        <p className={styles.text}>
+          Відмінною рисою бібліотеки React є концентрація на компонентах, 
+          які легко переносити з проєкту в проєкт.
+        </p>
+      </div>
     );
   }
 }

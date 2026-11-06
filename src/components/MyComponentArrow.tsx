@@ -1,9 +1,14 @@
+// MyComponentArrow.tsx
 import styles from "./MyComponentArrow.module.css";
 
 const MyComponentArrow = () => (
-  <h1 className={styles.header}>
-    Для определения компонента можно использовать стрелочные функции
-  </h1>
+  <div className={styles.card}>
+    <div className={styles.badge}>Стрілочна функція</div>
+    <p className={styles.text}>
+      Для визначення компонента можна успішно використовувати стрілочні функції 
+      для більш лаконічного коду.
+    </p>
+  </div>
 );
 
 export default MyComponentArrow;
